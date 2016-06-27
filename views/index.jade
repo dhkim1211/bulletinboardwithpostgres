@@ -7,11 +7,11 @@ block content
 		p Post A New Message
 
 		form(action="/messages", method="POST")
-			input(type="text", placeholder="Title", name="title")
+			input.form-control(type="text", placeholder="Title", name="title")
 			<br><br>
-			textarea(placeholder="Type Message Here..." name="body" rows="20" cols="70")
+			textarea.form-control(placeholder="Type Message Here..." name="body" rows="20" cols="70")
 			<br><br>
-			button(type="submit") Submit
+			button.btn.btn-info(type="submit") Submit
 
 		br
 		br
